@@ -36,6 +36,7 @@ header {
     position: sticky;
     top: 0;
     z-index: 1000;
+    margin-bottom: 2px;
 }
 
 header .container {
@@ -153,7 +154,7 @@ footer {
     text-align: center;
     padding: 20px 0;
     margin-top: auto;
-    margin-bottom:
+
 }
 
 @media (max-width: 768px) {
