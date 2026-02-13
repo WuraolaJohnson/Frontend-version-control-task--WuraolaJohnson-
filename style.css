@@ -36,6 +36,7 @@ header {
     position: sticky;
     top: 0;
     z-index: 1000;
+    margin-bottom: 2px;
 }
 
 header .container {
@@ -45,7 +46,11 @@ header .container {
 }
 
 header h1 {
-    color: var(--accent-color);
+    /* color: var(--accent-color); */
+    background: linear-gradient(150deg, var(--accent-color), var(--primary-color), var(--accent-color));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
     font-weight: 600;
 }
 
@@ -62,9 +67,9 @@ nav a {
     transition: color 0.3s;
 }
 
-nav a:hover {
+/* nav a:hover {
     color: var(--accent-color);
-}
+} */
 
 .hero {
     text-align: center;
